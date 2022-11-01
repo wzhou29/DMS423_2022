@@ -13,7 +13,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(MeshFilter))]
 [RequireComponent(typeof(MeshRenderer))]
-public class noiseland2 : MonoBehaviour
+public class noiseland : MonoBehaviour
 {
     [SerializeField] private int rows=10, cols=10;
     [SerializeField] private float minX=-1, maxX=1, minZ=-1, maxZ=1;
